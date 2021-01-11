@@ -34,5 +34,10 @@ jobs:
       - name: docker build
         run: |
           docker build ./html -t ///C:/Users/finnete/Documents/Dockerfile/dir1/Docker/index.html
+      - name: docker push 
+          run:|
+            docker push  ///C:/Users/finnete/Documents/Dockerfile/dir1/Docker/index.html
+
+         
 
      
